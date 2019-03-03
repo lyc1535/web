@@ -259,14 +259,14 @@ https://prismjs.com/download.html#themes=prism&languages=markup+css+clike+javasc
             document.title = data.title + " — " + data.org;
             data.categories.forEach(function (cat, catidx, arr) {
                 console.log("Processing category: " + cat.name);
-                var cat_elem = $("<li></li>").text(cat.name);
+                var cat_elem = $("<li></li>").html("<b>" + cat.name + "</b>");
                 $("#menu").append(cat_elem);
                 var cat_elem_list = $("<ol></ol>");
                 cat_elem.append(cat_elem_list);
                 cat.pages.forEach(function (page, pageidx, parr) {
                     var pelem_li = $("<li></li>");
                     var pelem_link = $("<a></a>");
-                    pelem_link.text(page.title);
+                    pelem_link.html("<b>" + page.title + "</b>");
                     pelem_link.attr("href", "#");
                     pelem_link.on("click", function () {
                         setPage(page);
