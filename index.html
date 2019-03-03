@@ -285,6 +285,11 @@ https://prismjs.com/download.html#themes=prism&languages=markup+css+clike+javasc
             $("#cload").hide();
             $("#cload").fadeIn(400, function(){var data = $.getJSON("data.json", onGet);});
             $("#mat_b").hide();
+            $.getJSON("https://api.github.com/repos/lyc1535/web/commits", function(comdata){
+                $("#commit_id").text(comdata[0].sha.toLowerCase().substr(0, 7));
+                $("#commit_p").append(" (от <a target=\"_blank\" href=\"" + comdata[0].author.html_url + "\">" + comdata[0].author.login + "</a> в " + comdata[0].commit.committer.date + ")");
+                $("#commit_url").attr("href", (comdata[0].html_url));
+            });
         }
         $(document).ready(main);
     </script>
@@ -294,7 +299,7 @@ https://prismjs.com/download.html#themes=prism&languages=markup+css+clike+javasc
     <div id="cload" class="container">
         <h1>Загрузка...</h1>
     </div>
-    <div id="cmain" class="container" style="display: none;">
+    <div id="cmain" class="container" style="display: none; max-width: 1500px;">
         <div class="row">
             <div class="twelve columns">
                 <h2 id="dtitle"></h2>
@@ -314,6 +319,7 @@ https://prismjs.com/download.html#themes=prism&languages=markup+css+clike+javasc
         <div class="row">
             <div class="twelve columns">
                 <b>В случае возникновения любых проблем с интерактивными материалами, пожалуйста, обратитесь к вашему преподавателю</b>
+                <p id="commit_p">Коммит <a target="_blank" id="commit_url"><b id="commit_id"></b></a></p>
                 <p>&copy; 2019 ГБОУ Школа №1535</p>
             </div>
         </div>
