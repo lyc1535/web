@@ -1,0 +1,23 @@
+{
+    "title": "Обучающие материалы по WEB-дизайну",
+    "org": "ГБОУ Школа №1535",
+    "categories": [
+        {
+            "name": "HTML",
+            "pages": [
+                {
+                    "stem": "s1",
+                    "title": "Введение: основные теги страницы",
+                    "index": "index.html",
+                    "files": [
+                        {
+                            "title": "Код страницы",
+                            "language": "html",
+                            "src": "index.html"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
