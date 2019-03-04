@@ -6,6 +6,26 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"
         integrity="sha256-2YQRJMXD7pIAPHiXr0s+vlRWA7GYJEK0ARns7k2sbHY=" crossorigin="anonymous" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function (m, e, t, r, i, k, a) {
+        m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+            m[i].l = 1 * new Date(); k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+        })
+            (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(52639438, "init", {
+            id: 52639438,
+            clickmap: true,
+            trackLinks: true,
+            accurateTrackBounce: true,
+            webvisor: true
+        });
+    </script>
+    <noscript>
+        <div><img src="https://mc.yandex.ru/watch/52639438" style="position:absolute; left:-9999px;" alt="" /></div>
+    </noscript>
+    <!-- /Yandex.Metrika counter -->
     <script type="text/javascript">
         /* PrismJS 1.15.0
     https://prismjs.com/download.html#themes=prism&languages=markup+css+clike+javascript&plugins=line-highlight */
@@ -216,8 +236,8 @@ https://prismjs.com/download.html#themes=prism&languages=markup+css+clike+javasc
     </style>
     <script type="text/javascript">
         var gdata = null;
-        function getLanguage(lang){
-            switch(lang){
+        function getLanguage(lang) {
+            switch (lang) {
                 case "html":
                     return Prism.languages.html;
                     break;
@@ -275,17 +295,17 @@ https://prismjs.com/download.html#themes=prism&languages=markup+css+clike+javasc
                     cat_elem_list.append(pelem_li);
                 });
             })
-            $("#cload").fadeOut(400, function(){$("#cmain").fadeIn();});
-            if(localStorage.getItem("__sv__ps") != null){
+            $("#cload").fadeOut(400, function () { $("#cmain").fadeIn(); });
+            if (localStorage.getItem("__sv__ps") != null) {
                 setPage(JSON.parse(localStorage.getItem("__sv__ps")));
             }
         }
         function main() {
             $("#cmain").hide();
             $("#cload").hide();
-            $("#cload").fadeIn(400, function(){var data = $.getJSON("data.json", onGet);});
+            $("#cload").fadeIn(400, function () { var data = $.getJSON("data.json", onGet); });
             $("#mat_b").hide();
-            $.getJSON("https://api.github.com/repos/lyc1535/web/commits", function(comdata){
+            $.getJSON("https://api.github.com/repos/lyc1535/web/commits", function (comdata) {
                 $("#commit_id").text(comdata[0].sha.toLowerCase().substr(0, 7));
                 $("#commit_p").append(" (от <a target=\"_blank\" href=\"" + comdata[0].author.html_url + "\">" + comdata[0].author.login + "</a> в " + comdata[0].commit.committer.date + ")");
                 $("#commit_url").attr("href", (comdata[0].html_url));
@@ -318,7 +338,8 @@ https://prismjs.com/download.html#themes=prism&languages=markup+css+clike+javasc
         </div>
         <div class="row">
             <div class="twelve columns">
-                <b>В случае возникновения любых проблем с интерактивными материалами, пожалуйста, обратитесь к вашему преподавателю</b>
+                <b>В случае возникновения любых проблем с интерактивными материалами, пожалуйста, обратитесь к вашему
+                    преподавателю</b>
                 <p id="commit_p">Коммит <a target="_blank" id="commit_url"><b id="commit_id"></b></a></p>
                 <p>&copy; 2019 ГБОУ Школа №1535</p>
             </div>
