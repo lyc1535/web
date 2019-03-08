@@ -18,6 +18,23 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "Лучшие работы (Лабораторная работа №1)",
+            "pages": [
+                {
+                    "stem": "lab1",
+                    "title": "Moulin Rouge",
+                    "index": "mrouge.html",
+                    "files": [
+                        {
+                            "title": "Код страницы",
+                            "language": "html",
+                            "src": "mrouge.html"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
