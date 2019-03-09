@@ -57,6 +57,18 @@
                             "src": "nyc.html"
                         }
                     ]
+                },
+                {
+                    "stem": "lab1",
+                    "title": "Сайдинг",
+                    "index": "siding.html",
+                    "files": [
+                        {
+                            "title": "Код страницы",
+                            "language": "html",
+                            "src": "siding.html"
+                        }
+                    ]
                 }
             ]
         }
