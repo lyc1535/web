@@ -45,6 +45,18 @@
                             "src": "horses.html"
                         }
                     ]
+                },
+                {
+                    "stem": "lab1",
+                    "title": "New York",
+                    "index": "nyc.html",
+                    "files": [
+                        {
+                            "title": "Код страницы",
+                            "language": "html",
+                            "src": "nyc.html"
+                        }
+                    ]
                 }
             ]
         }
