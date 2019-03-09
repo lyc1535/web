@@ -33,6 +33,18 @@
                             "src": "mrouge.html"
                         }
                     ]
+                },
+                {
+                    "stem": "lab1",
+                    "title": "Horses for Sale",
+                    "index": "horses.html",
+                    "files": [
+                        {
+                            "title": "Код страницы (немного измененный, в оригинальной работе были ошибки)",
+                            "language": "html",
+                            "src": "horses.html"
+                        }
+                    ]
                 }
             ]
         }
