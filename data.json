@@ -20,6 +20,27 @@
             ]
         },
         {
+            "name": "CSS",
+            "pages": [
+                {
+                    "stem": "s2",
+                    "title": "Первая таблица стилей",
+                    "files": [
+                        {
+                            "title": "Код страницы",
+                            "language": "html",
+                            "src": "index.html"
+                        },
+                        {
+                            "title": "Таблица стилей",
+                            "language": "css",
+                            "src": "style.css"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "name": "Лучшие работы (Лабораторная работа №1)",
             "pages": [
                 {
