@@ -25,6 +25,7 @@
                 {
                     "stem": "s2",
                     "title": "Первая таблица стилей",
+                    "index": "index.html",
                     "files": [
                         {
                             "title": "Код страницы",
