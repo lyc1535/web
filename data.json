@@ -42,6 +42,28 @@
             ]
         },
         {
+            "name": "Примеры дизайна",
+            "pages": [
+                {
+                    "stem": "dex",
+                    "title": "WATER",
+                    "index": "water.html",
+                    "files": [
+                        {
+                            "title": "Код страницы",
+                            "language": "html",
+                            "src": "water.html"
+                        },
+                        {
+                            "title": "Таблица стилей",
+                            "language": "css",
+                            "src": "water.css"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "name": "Лучшие работы (Лабораторная работа №1)",
             "pages": [
                 {
