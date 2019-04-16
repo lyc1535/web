@@ -35,7 +35,7 @@
                         {
                             "title": "Таблица стилей",
                             "language": "css",
-                            "src": "style.css"
+                            "src": "navig.css"
                         }
                     ]
                 }
