@@ -31,11 +31,11 @@
                             "title": "Код страницы",
                             "language": "html",
                             "src": "index.html"
-                        }, 
+                        },
                         {
                             "title": "Таблица стилей",
                             "language": "css",
-                            "src": "navig.css"
+                            "src": "style.css"
                         }
                     ]
                 }
@@ -57,7 +57,7 @@
                         {
                             "title": "Таблица стилей",
                             "language": "css",
-                            "src": "menu.html"
+                            "src": "navig.css"
                         }
                     ]
                 }
