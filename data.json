@@ -31,7 +31,7 @@
                             "title": "Код страницы",
                             "language": "html",
                             "src": "index.html"
-                        },
+                        }, 
                         {
                             "title": "Таблица стилей",
                             "language": "css",
