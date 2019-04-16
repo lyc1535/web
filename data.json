@@ -42,6 +42,28 @@
             ]
         },
         {
+            "name": "Навигация",
+            "pages": [
+                {
+                    "stem": "kex1",
+                    "title": "Пример навигации",
+                    "index": "menu.html",
+                    "files": [
+                        {
+                            "title": "Код страницы с меню",
+                            "language": "html",
+                            "src": "menu.html"
+                        },
+                        {
+                            "title": "Таблица стилей",
+                            "language": "css",
+                            "src": "menu.html"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "name": "Примеры дизайна",
             "pages": [
                 {
