@@ -64,6 +64,62 @@
             ]
         },
         {
+            "name": "Анимацич",
+            "pages": [
+                {
+                    "stem": "kex2",
+                    "title": "Анимация",
+                    "index": "index1.html",
+                    "files": [
+                        {
+                            "title": "Код страницы с меню",
+                            "language": "html",
+                            "src": "index1.html"
+                        },
+                        {
+                            "title": "Таблица стилей",
+                            "language": "css",
+                            "src": "style1.css"
+                        }
+                    ]
+                },
+                {
+                    "stem": "kex2",
+                    "title": "смена картинок овиации",
+                    "index": "index2.html",
+                    "files": [
+                        {
+                            "title": "Код страницы с меню",
+                            "language": "html",
+                            "src": "index2.html"
+                        },
+                        {
+                            "title": "Таблица стилей",
+                            "language": "css",
+                            "src": "style2.css"
+                        }
+                    ]
+                },
+                {
+                    "stem": "kex2",
+                    "title": "Пример овиации",
+                    "index": "index3.html",
+                    "files": [
+                        {
+                            "title": "Код страницы семню",
+                            "language": "html",
+                            "src": "index3.html"
+                        },
+                        {
+                            "title": "Таблица стилей",
+                            "language": "css",
+                            "src": "style3.css"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "name": "Примеры дизайна",
             "pages": [
                 {

@@ -1,0 +1,96 @@
+ol, ul {
+    list-style: none;
+}
+
+.main-ul li {
+    float: left;
+    position: relative;
+    width: 25%;
+    text-align: center;
+}
+
+.main-ul li a {
+    display: block;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    text-decoration: none;
+    position: relative;
+    z-index: 100;
+    background-color: rgba(164, 164, 164, 0.2);
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+.main-ul li a span {
+    display: block;
+    padding-top: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    color: rgba(120, 120, 120, 0.9);
+    text-transform: uppercase;
+    font-family: 'Kotta One', serif;
+}
+
+.main-ul li:hover span {
+    color: #fff;
+}
+.main-ul li:nth-child(1):hover a{
+    background-color: rgba(175,54,55,0.8);
+    -moz-transform: rotate(-3deg);
+    -webkit-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+   }
+   .main-ul li:nth-child(2):hover a{
+    background-color: rgba(199, 204, 73, 0.8);
+    -moz-transform: rotate(-3deg);
+    -webkit-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+   }
+   .main-ul li:nth-child(3):hover a{
+    background-color: rgba(213, 135, 11, 0.8);
+    -moz-transform: rotate(3deg);
+    -webkit-transform: rotate(3deg);
+    -o-transform: rotate(3deg);
+    transform: rotate(3deg);
+   }
+   .main-ul li:nth-child(4):hover a{
+    background-color: rgba(51, 143, 144, 0.8);
+    -moz-transform: rotate(3deg);
+    -webkit-transform: rotate(3deg);
+    -o-transform: rotate(3deg);
+    transform: rotate(3deg);
+   }
+   .main-ul li:nth-child(5):hover a{
+    background-color: rgba(117,18,98,0.8);
+    -moz-transform: rotate(-3deg);
+    -webkit-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+   }
+   .main-ul li:nth-child(6):hover a{
+    background-color: rgba(33, 136, 215, 0.8);
+    -moz-transform: rotate(-3deg);
+    -webkit-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+   }
+   .main-ul li:nth-child(7):hover a{
+    background-color: rgba(109, 109, 109, 0.8);
+    -moz-transform: rotate(3deg);
+    -webkit-transform: rotate(3deg);
+    -o-transform: rotate(3deg);
+    transform: rotate(3deg);
+   }
+   .main-ul li:nth-child(8):hover a{
+    background-color: rgba(152, 120, 92, 0.8);
+    -moz-transform: rotate(3deg);
+    -webkit-transform: rotate(3deg);
+    -o-transform: rotate(3deg);
+    transform: rotate(3deg);
+   }
